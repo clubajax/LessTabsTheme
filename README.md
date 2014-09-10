@@ -18,3 +18,5 @@ Launch [chrome://extensions](chrome://extensions/)
 To allow extensions to modify the them of the dev tools, go to [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments) and select *Enable Developer Tools experiments*.
 
 Then restart your browser, launch Dev Tools, and open *Settings*. Click *Experiments*, and select *Allow custom UI themes*
+
+Launch [chrome://extensions/](chrome://extensions/) and choose *Load unpacked extension...* and select the *theme-extension* folder. You will need to close and re-open Dev Tools to see the changes.
