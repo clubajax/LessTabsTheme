@@ -10,7 +10,7 @@ There are plans to re-enable those tabs with a shortcut key, but in the meantime
 
 Clone this repo to your computer: `https://github.com/clubajax/LessTabsTheme.git`
 
-Launch [Extensions](chrome://extensions/)
+Launch [chrome://extensions](chrome://extensions/)
 To allow extensions to modify the them of the dev tools, go to [chrome://flags/#enable-devtools-experiments](chrome://flags/#enable-devtools-experiments) and select *Enable Developer Tools experiments*.
 
 Then restart your browser, launch Dev Tools, and open *Settings*. Click *Experiments*, and select *Allow custom UI themes*
