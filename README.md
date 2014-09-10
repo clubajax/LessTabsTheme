@@ -1,8 +1,8 @@
 # Less Tabs Theme
 
-Modify Dev Tools to hide less common tabs
+Modify Dev Tools to hide the less common tabs
 
-This extension will hide *Timeline, Profiles, Resources, and Audits*, in order to give the tab bar more room so when the dev tools are docked to the right, it doesn't have to be open to half your monitor in order for the *Console* tab to be easily accessible without multiple clicks or shortcut keys.
+This extension will hide *Timeline, Profiles, Resources, and Audits*, in order to give the tab bar more room so when the Dev Tools are docked to the right, it doesn't have to be open to half your monitor in order for the *Console* tab to be easily accessible without multiple clicks or shortcut keys.
 
 There are plans to re-enable those tabs with a shortcut key, but in the meantime, in order to show the hidden tabs, simply disable the extension.
 
