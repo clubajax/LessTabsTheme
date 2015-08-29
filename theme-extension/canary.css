@@ -1,23 +1,16 @@
 #console-messages .console-log-level .console-message-text,
 #console-messages .console-log-level .console-message-url {
+	/*color: red;
+	font-weight: bold;*/
+}
 
+::shadow .tabbed-pane-header-tab:nth-child(4),
+::shadow .tabbed-pane-header-tab:nth-child(5),
+::shadow .tabbed-pane-header-tab:nth-child(6),
+::shadow .tabbed-pane-header-tab:nth-child(7),
+::shadow .tabbed-pane-header-tab:nth-child(9){
+	display: none !important;
 }
-.tabbed-pane:not(.help-window-main) .tabbed-pane-header{
-	width: auto !important;
-	margin-right: -250px !important;
-}
-.tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab:nth-child(4){
-	display: none;
-}
-.tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab:nth-child(5){
-	display: none;
-}
-.tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab:nth-child(6){
-	display: none;
-}
-.tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab:nth-child(7){
-	display: none;
-}
-.tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab:nth-child(9){
-	display: none;
+::shadow .tabbed-pane-header-tab {
+	color: #0000A3 !important;
 }
