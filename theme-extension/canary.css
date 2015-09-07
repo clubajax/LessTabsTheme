@@ -1,9 +1,31 @@
+/*
+https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/devtools/front_end/ui/toolbar.css&sq=package:chromium
+*/
 #console-messages .console-log-level .console-message-text,
 #console-messages .console-log-level .console-message-url {
 	/*color: red;
-	font-weight: bold;*/
+	font-weight: bold;
+	background: yellow;*/
 }
+::shadow .tabbed-pane-header{
+	width: auto !important;
+	width: 1000px !important;
+}
+.toolbar, .tabbed-pane-header{
 
+}
+::shadow button.toolbar-item{
+
+}
+::shadow .tabbed-pane-header-contents{
+	/* tab container*/
+	width: 1000px !important;
+	background: yellow;
+	overflow: visible !important;
+}
+::shadow .tabbed-pane-header-tab{
+	/*border: 1px solid red;	*/
+}
 ::shadow .tabbed-pane-header-tab:nth-child(4),
 ::shadow .tabbed-pane-header-tab:nth-child(5),
 ::shadow .tabbed-pane-header-tab:nth-child(6),
@@ -11,6 +33,15 @@
 ::shadow .tabbed-pane-header-tab:nth-child(9){
 	display: none !important;
 }
+
 ::shadow .tabbed-pane-header-tab {
 	color: #0000A3 !important;
+}
+::shadow .tabbed-pane-header-tab-title{
+	
+}
+
+.toolbar .toolbar-controls-right,
+.toolbar .toolbar-controls-left{
+	background: blue;
 }
